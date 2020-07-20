@@ -3,9 +3,7 @@ import React from "react"
 function Endgame(props) {
     return(
         <div>
-            <h1 className = "end">You have come to the end of the game.</h1>
-            <button className="score" name="home" onClick={props.mainClick}>See Traits</button>
-            <button className="restart" name="startgame" onClick={props.reset}>Play Again!</button>
+            <h1 className = "end">Thank you for doing the feedback! We will get back to you to review the results soon.</h1>
         </div>
         
     )

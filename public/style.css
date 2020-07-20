@@ -5,6 +5,10 @@ body
     font-family: 'Ubuntu', sans-serif ;
 }
 
+.rules {
+    width: 80%;
+    left: 10%
+}
 /* --- NavBar----- */
 .navbar-wrap {
     position: fixed;
@@ -241,11 +245,12 @@ body
     /* font-weight: bold; */
     font-size: 50px;
     color: white;
+    justify-content: center;
 
     position: relative;
-    width: 12%;
+    width: 20%;
     height: 83px;
-    left: 44%;
+    left: 40%;
     top: 200px;
     text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.3);
     /* -webkit-text-stroke-width: 1px;
@@ -263,6 +268,17 @@ body
     height: 7%;
     left: 88%;
     top: 90%;
+}
+.len-disclaimer {
+    position: fixed;
+    left:86%;
+    width: 11%;
+    color: red;
+    top: 82%;
+    text-align: center;
+    /* text-justify: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 .qn-status-wrap {
     position: relative;
@@ -386,7 +402,7 @@ ol {
     position:relative;
     top: 180px;
     width: 170px;
-    height: 70px;
+    /* height: 60px; */
     margin-left: 0px;
     margin-right: 45px;
     margin-bottom:60px;
@@ -396,7 +412,7 @@ ol {
     border-radius: 15px;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 50px;
     align-items: center;
     align-content: center;
@@ -407,6 +423,9 @@ ol {
     color: #000000;
 
     text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.3);
+}
+.options:hover {
+    background-color: #ff7a00;
 }
 
 /* ---login--- */
